@@ -1,0 +1,19 @@
+/*
+    Created by: Sujil Maharjan 
+    Email: smaharj1@ramapo.edu
+*/
+
+.interactive-slide span {
+    display: inline-block;
+    background-color: lightgrey;
+    min-width: 5px;
+    width: 100px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+body {
+    width: 500px
+}

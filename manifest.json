@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "TrainU",
+  "description": "This extension trains you by watching your history",
+  "version": "0.1",
+
+  "background": {
+      "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "history",
+    "notifications",
+    "https://ajax.googleapis.com/"
+  ]
+}
