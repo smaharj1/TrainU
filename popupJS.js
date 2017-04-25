@@ -3,6 +3,8 @@ $(document).ready(function() {
 
     background.transfer;
 
+    console.log(background.analyzeHistory());
+
     // This is an array of total hits
     var totalHits = background.categoryHits;
     var total = 0;
@@ -23,7 +25,9 @@ $(document).ready(function() {
 
 
 
+
     $('.interactive-slide span').hover(function() {
+        
         var isHigh = $(this).hasClass('high');
         var isMedium = $(this).hasClass('medium');
         
